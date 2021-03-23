@@ -1,0 +1,5 @@
+mysqldump -u root -p example > sample.sql
+mysql 
+CREATE DATABASE sample;
+exit
+mysql sample < sample.sql
