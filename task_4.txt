@@ -1,0 +1,1 @@
+mysqldump --opt --where="true order by help_keyword_id limit 100" mysql help_keyword > task4.sql
